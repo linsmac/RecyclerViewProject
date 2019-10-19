@@ -25,12 +25,12 @@
         android:layout_width="411dp"
 
 
-        android:layout_height="0dp"
+        android:layout_height="65dp"
         android:background="#9A96DA52"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
 
 
         <TextView
@@ -54,18 +54,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.0875513" />
+        app:layout_constraintGuide_percent="0.090287276" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="410dp"
+        android:layout_width="412dp"
 
 
-        android:layout_height="60dp"
+        android:layout_height="57dp"
         android:background="#5C52CADA"
-        app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
 
@@ -116,11 +113,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
         android:layout_width="411dp"
-        android:layout_height="0dp"
+        android:layout_height="51dp"
         android:background="#54FFEB3B"
-        app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2">
 
@@ -130,7 +125,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_begin="111dp" />
+            app:layout_constraintGuide_begin="154dp" />
 
         <TextView
             android:id="@+id/textView8"

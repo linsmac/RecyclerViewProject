@@ -13,6 +13,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import static com.we.recyclerviewproject.R.color.c2;
+import static com.we.recyclerviewproject.R.color.c3;
 import static com.we.recyclerviewproject.R.color.colorAccent;
 import static com.we.recyclerviewproject.R.color.colorPrimaryDark;
 
@@ -39,11 +41,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         holder.tvType.setText(myDataList.get(position).getType());
         holder.tvMoney.setText(myDataList.get(position).getMoney());
         if (myDataList.get(position).getColor().equals("0")){
-            holder.layout.setBackground(mContext.getDrawable(R.color.colorPrimary));
+            holder.layout.setBackground(mContext.getDrawable(R.color.c1));
         } else if (myDataList.get(position).getColor().equals("1")) {
-            holder.layout.setBackground(mContext.getDrawable(colorAccent));
+            holder.layout.setBackground(mContext.getDrawable(c2));
         } else if (myDataList.get(position).getColor().equals("2")){
-            holder.layout.setBackground(mContext.getDrawable(colorPrimaryDark));
+            holder.layout.setBackground(mContext.getDrawable(c3));
         }
     }
 
